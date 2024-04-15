@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* footer one */
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  background-color: #1e1e1e;
+  color: #fff;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+.columne-logo {
+  box-sizing: border-box;
+  width: 265px;
+  height: auto;
+  margin-right:30px;
+}
+.columne-logo img {
+  width: 265px;
+  height: auto;
+}
+.conten-introduce {
+  margin-top: 16px;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.footer-columne {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+ul.columne li a {
+  text-decoration: none;
+  color: #fff;
+  right: 0;
+}
+.columne li{
+  line-height: 2;
+  font-size: 13px;
+}
+.columne li:hover{
+  text-decoration: underline;
+}
+.ship a img {
+  width: 300px;
+  height: auto;
+  /* position: absolute; */
+  right: -20px;
+  top: -20px;
+}
+.icon-info {
+  margin-top: 30px;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.icon-info a{
+  color: #fff;
+}
+.appstore{
+  margin-top: 20px;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.appstore li a img{
+   width: 100px;
+   height: auto;
+}
+
+
+/* footer tow */
+.footer-foot{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: #1e1e1e;
+  color: #fff;
+  line-height: 1.5;
+  box-sizing: border-box;
+  box-shadow: 0 -0.2px 0px 0 rgb(232, 232, 232);
+}
+.footer-foot-clo{
+  margin: 0 100px;
+  font-size: 13px;
+}
